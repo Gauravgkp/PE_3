@@ -1,4 +1,3 @@
-package com.boeing;
 import java.util.Scanner;
 
 public class ExceptionDemo {

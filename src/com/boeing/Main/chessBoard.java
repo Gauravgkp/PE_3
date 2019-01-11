@@ -1,7 +1,5 @@
-package com.boeing;
-
 public class chessBoard {
-    public static void main(String[] args){
+    public static boolean chessPatter(boolean chess){
         System.out.println("My Chess Board");
         for(int row=0; row<8; row++){
             for(int column=0; column<8; column++){
@@ -14,5 +12,7 @@ public class chessBoard {
             }
             System.out.println();
         }
+        chess = true;
+        return chess;
     }
 }

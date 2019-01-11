@@ -1,5 +1,3 @@
-package com.boeing;
-
 public class DifferentException {
     public static void main(String[] args){
         try {

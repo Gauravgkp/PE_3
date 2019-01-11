@@ -1,4 +1,3 @@
-package com.boeing;
 import java.util.Scanner;
 import java.util.InputMismatchException;
 
@@ -34,6 +33,8 @@ public class StudentMarks {
         System.out.println("Thanks for entering all students marks!");
         }
     }
+
+
 
     class NotValidMarks extends Exception {
         public NotValidMarks(String s) {

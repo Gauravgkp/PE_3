@@ -1,9 +1,8 @@
-package com.boeing;
 import java.util.*;
 import java.text.*;
 
 public class WeekDay {
-    public static void main(String []args){
+    public static boolean weekDay(boolean weekDay){
         // Get calendar set to current date and time
         Calendar c = Calendar.getInstance();
 
@@ -19,5 +18,8 @@ public class WeekDay {
         }
         System.out.println(daycommonformat.format(c.getTime()));
         System.out.println();
+
+        weekDay = true;
+        return weekDay;
     }
 }
